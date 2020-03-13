@@ -1,4 +1,4 @@
-package com.test.controller;
+package com.pdsu.fathree.travel.utils;
 
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;
@@ -11,7 +11,7 @@ public class TestController implements Controller {
     public ModelAndView handleRequest(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws Exception {
 
         ModelAndView mav = new ModelAndView();
-        mav.addObject("msg","重新做成的第一个github项目");
+        mav.addObject("msg", "重新做成的第一个github项目");
         mav.setViewName("/first.jsp");
         return mav;
 

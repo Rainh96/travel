@@ -9,7 +9,7 @@
 
     <!--注解前的配置-->
     <!--    配置处理器handle，映射firstController请求-->
-        <bean name="/test" class="com.test.controller.TestController"/>
+        <bean name="/test" class="com.pdsu.fathree.travel.utils.TestController"/>
 
     <!--&lt;!&ndash;    配置映射处理器，将处理器的name作为url进行处理&ndash;&gt;-->
     <!--    <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>-->
